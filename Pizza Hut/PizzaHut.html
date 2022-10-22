@@ -1,0 +1,413 @@
+<html>
+    <head>
+        <title>PIZZA HUT</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            .logo{
+                float: left;
+            }
+            .back{
+                background-image: url(back.jpg);
+            }
+            h2{
+                text-align: right;
+                margin-top: 350px;
+                font-size: xx-large;
+                font-family: cursive;
+                color: white;
+            }
+            marquee{
+                margin-top: 250px;
+            }
+            .nav a{
+                display: block;
+                padding: 100px;
+                font-size: 19px;
+                color: white;
+                text-align: center;
+                padding: 20px 20px;
+                text-decoration: none;
+                float: left;
+            }
+            .nav a:hover{
+                background-color: black;
+            }
+            .empty{
+                background-color: black;
+            }
+            .specials{
+                background-image: url(spec.jpg);
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                
+            }
+            h1{
+                text-align: center;
+            }
+            .nada{
+                background-color: black;
+                color: black;
+            }
+            .items{
+                align-items: left;
+            }
+            .deal1{
+                margin: 10px;
+                margin-left: 100px;
+            }
+            .deal2{
+                margin: 40px;
+                margin-left: 100px;
+            }
+            .deal3{
+                margin: 40px;
+                margin-left: 100px;
+            }
+            img{
+                border-radius: 50px 0 0 50px;
+            }
+            .right{
+                float: right;
+                color: black;
+            }
+            .box1{
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 40px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -210px;
+            }
+            .box2{
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 12px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -240px;
+            }
+            .box3{
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 13px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -240px;
+            }
+            .body{
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                font-weight: bolder;
+                background-image: url(1.jpg);
+                background-size: cover;
+            }
+            .wrapper{
+                width:1200px;
+                margin:100px auto;
+            }
+            .title{
+                text-align:center;
+                margin-bottom:60px;
+            }
+            .title h4{
+                text-transform:capitalize;
+                font-size:36px;
+                position:relative;
+                display:inline-block;
+                padding-bottom:10px;
+            }
+            .title h4 span{
+                display:block;
+                font-size:18px;
+                font-style:italic;
+                margin-bottom:10px;
+                color: #ff7720 ;
+            }
+            .title h4:before{
+                position:absolute;
+                width:100px;
+                height:2px;
+                background-color:#ff7720;
+            }
+            .menu{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:space-between;
+            }
+            .single-menu{
+                flex-basis:580px;
+                margin-bottom:40px;
+                padding-bottom:40px;
+                border-bottom:1px solid #ddd;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+            }
+            .single-menu img{
+                border-radius: 50%;
+            }
+            .gallery{
+                font-size: x-large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                color: white;
+                text-align: left;
+                background-image: url(gall.jpg);
+            }
+            .image{
+                border-radius: 50px;
+            }
+            .image img{
+                border-radius: 50px;
+                margin: 10px;
+                margin-left: 50px;
+                border:  black;
+                width: 200px;
+                height: 200px;
+            }
+            .image img:hover{
+                width: 300px;
+                height: 300px;
+            }
+            .contact{
+                color: white;
+            }
+            .contact h1{
+                text-align: center;
+            }
+            .contact  h3{
+                text-align: center;
+            }
+            .Adress{
+                text-align: center;
+                margin-top: 25px;
+            }
+            .cont{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 25px;
+                margin-top: 25px;
+            }
+            li{
+                text-align: left;
+            }
+            .cont a{
+                text-decoration: none;
+                color: white;
+            }
+            .foot{
+                color: white;
+                font-size: large;
+            }
+            .foot img{
+                height: 150px;
+                width: 200px;
+                margin-left: 370px;
+            }
+            .help{
+                margin-left: 300px;
+            }
+            button{
+                height: 50px;
+                width: 120px;
+                border-radius: 10px;
+            }
+            h3{
+                color: white;
+                margin-left: 50px;
+            }
+            .help img{
+                height: 50px;
+                width: 50px;
+                margin-left: 20px;
+                display: inline-block;
+            }
+            .right{
+                float: right;
+                margin-top: -60px;
+                margin-right: 350px;
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="back">
+            <img src="logo.png" height="100px" width="100px" class="logo"><br>
+            <div class="nav">
+                <a href="PizzaHut.html">Home</a>
+                <a href="https://www.pizzahut.co.in/order/deals/">Specials</a>
+                <a href="https://www.pizzahut.co.in/menu/pizzas">Menu</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="https://restaurants.pizzahut.co.in/pizza-hut-sector-56-pizza-restaurant-sector-56-gurgaon-1096/Contact-Us">Address</a>
+                <a href="https://restaurants.pizzahut.co.in/pizza-hut-sector-56-pizza-restaurant-sector-56-gurgaon-1096/Contact-Us">Contact</a>
+            </div>
+            <h2 class="low">All the taste, not on your waist!</h2>
+            <marquee behavior="alternate" direction="left"><img src="sm.png" height="50px" width="50px"><img src="sm1.png" height="50px" width="50px"><img src="sm2.jpg" height="50px" width="50px"></marquee>
+            <div class="specials">
+                <h1 class="nada">y</h1>
+                <h1>Speacials</h1>
+                <div class="items">
+                    <div class="deal1">
+                        <a href="https://www.pizzahut.co.in/menu/deals/pizza-fest-supreme"><img src="deal1.jpg" height="200px" width="450px"></a></div>
+                        <div class="box1">
+                            <h1>3 Personal Pan Pizzas Starting @ Rs.499 (Save Upto 51%)</h1>
+                            <p>Details: 3 Veg Pizza, Upgrade to Non Veg with only Rs.25</p>
+                        </div>
+                        <a href="https://www.pizzahut.co.in/menu/deals/hut-meal-for-4"><img src="deal2.jpg" height="200px" width="450px" class="deal3"></a></div>
+                        <div class="box2">
+                            <h1>Super Saver Meal Combo starting @ Rs.699<br>(Save Upto 42%)</h1>
+                            <p>Details: 2 Med Pizza of Choice, 1 Garlic Breadstix, 1 Creamy Garlic Breadstix, 2 Pepsi Pet Bottles</p>                      
+                        </div>
+                        <a href="https://www.pizzahut.co.in/menu/deals/hut-treat-party-pack"><img src="deal3.jpg" height="200px" width="450px" class="deal2"></a></div>
+                        <div class="box3">
+                            <h1>Party Combo For 8-10 ( Save Rs.550)</h1>
+                            <p>Details: 4 Medium Pizza From Select Range, 2 Garlic Breadstix, 1 Zesty Paneer Pocket, 1 Potato Poppers, 2 Variety of Dips.<br> Non Veg Upgrade Available At Additional Charge<p>                      
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wrapper">
+                 <div class="title">
+                     <h4><span>All the taste, not on your waist!</span>Our menu</h4>
+                 </div>
+                 <div class="menu">
+                     <div class="single-menu">
+                         <img src="menu1.jpg">
+                         <div class="menu-content">
+                             <h4>Veg Exotica<span>Rs.369.00</span></h4>
+                             <p>Baby Corn, Black Olives, Green Capsicum, Jalapeno, Red Capsicum.</p>
+                         </div>
+                     </div>
+                     <div class="single-menu">
+                         <img src="menu2.jpg">
+                         <div class="menu-content">
+                             <h4>Malai Chicken Tikka<span>Rs.369.00</span></h4>
+                             <p>Chicken Malai Tikka, Herbed Onion & Green Capsicum, Red Paprika.</p>
+                         </div>
+                     </div>
+                     <div class="single-menu">
+                         <img src="menu3.jpg">
+                         <div class="menu-content">
+                             <h4>Italian Chicken Feast<span>Rs.369.00</span></h4>
+                             <p>Chicken Sausage, Chicken Pepperoni, Sweet Corn, Black Olive, Jalapeno</p>
+                         </div>
+                     </div>
+                     <div class="single-menu">
+                         <img src="menu4.jpg">
+                         <div class="menu-content">
+                             <h4>Chicken Pepper Crunch<span>Rs.369.00</span></h4>
+                             <p>Herbed Chicken, Onion, Green Capsicum, Red Capsicum.</p>
+                         </div>
+                     </div>
+                     <div class="single-menu">
+                         <img src="menu5.jpg">
+                         <div class="menu-content">
+                             <h4>Veggie Lover<span>Rs.299.00</span></h4>
+                             <p>Onion, Green Capsicum, Mushroom, Tomato, Red Paprika.</p>
+                         </div>
+                     </div>
+                     <div class="single-menu">
+                        <img src="menu6.jpg">
+                        <div class="menu-content">
+                            <h4>Farmers Pick<span>Rs.299.00</span></h4>
+                            <p>Herbed Onion & Green Capsicum, Red Capsicum, Mushroom, Baby Corn</p>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div>
+             <div class="gallery">
+                 <h1>Our Gallery</h1>
+                 <div class="image">
+                     <img src="img1.jpg" height="300px" width="300px">
+                     <img src="img2.jpg" height="300px" width="300px">
+                     <img src="img3.jpg" height="300px" width="300px">
+                     <img src="img4.jpg" height="300px" width="300px">
+                     <img src="img5.jpg" height="300px" width="300px">
+                     <img src="img6.jpg" height="300px" width="300px">
+                     <img src="img7.jpg" height="300px" width="300px">
+                     <img src="img8.jpg" height="300px" width="300px">
+                     <img src="img9.jpg" height="300px" width="300px">
+                     <img src="img10.jpg" height="300px" width="300px">
+                     <img src="img11.jpg" height="300px" width="300px">
+                     <img src="img12.jpg" height="300px" width="300px">
+                     <img src="img13.jpg" height="300px" width="300px">
+                     <img src="img14.jpg" height="300px" width="300px">
+                     <img src="img15.jpg" height="300px" width="300px">
+                     <img src="img16.jpg" height="300px" width="300px">
+                     <img src="img17.jpg" height="300px" width="300px">
+                     <img src="img18.jpg" height="300px" width="300px">
+                     <img src="img19.jpg" height="300px" width="300px">
+                     <img src="img20.jpg" height="300px" width="300px">
+             </div>
+         </div>
+        <div> 
+    </div>
+    <div>
+        <div class="contact">
+            <div class="Adress">
+                <h3>Pizza Hut</h3>
+               <div class="cont">
+                 <div>
+                    Order Now
+                    <ul>
+                       <li><a href="https://www.pizzahut.co.in/menu/deals">Deals</a></li>
+                       <li><a href="https://www.pizzahut.co.in/menu/pizzas">Pizza</a></li>
+                       <li><a href="https://www.pizzahut.co.in/menu/sides">Sides</a></li>
+                       <li><a href="https://www.pizzahut.co.in/menu/drinks">Drinks</a></li>
+                       <li><a href="https://www.pizzahut.co.in/menu/desserts">Desserts</a></li>
+                    </ul>
+                 </div>
+                <div>
+                    About
+                     <ul>
+                       <li><a href="https://www.pizzahut.co.in/aboutus">About Us</a></li>
+                       <li><a href="https://www.pizzahut.co.in/contactlessdelivery">Contactless delivery</a></li>
+                       <li><a href="https://www.pizzahut.co.in/nutrition/">Nutrition</a></li>
+                     </ul>
+                </div>
+                <div>
+                    Our Policies
+                    <ul>
+                        <li><a href="https://www.pizzahut.co.in/terms/">Terms & Conditions</a></li>
+                        <li><a href="https://pizzahut.responsibledisclosure.com/hc/en-us">Responsible disclosure</a></li>
+                        <li><a href="https://www.pizzahut.co.in/faqs">FAQs & Help</a></li>
+                    </ul>
+                </div>    
+                <div> 
+                    Visit Pizza Hut
+                    <ul>
+                        <li><a href="https://restaurants.pizzahut.co.in/">Locate a store</a></li>
+                        <li><a href="https://blog.pizzahut.com/">Global Blog</a></li>
+                    </ul>
+                </div>      
+            </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="foot">
+        <a href="https://apps.apple.com/in/app/pizza-hut-india/id848379180"><img src="ios.png"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.pizzahutuk.orderingApp"><img src="goog.png"></a>
+        <div class="help">
+            Help Us in Serving You Better<a href="https://www.pizzahut.co.in/landing/?id=feedback-form"><button>Give Feedback</button></a>
+           <div class="right"><h3>Follow us</h3>
+            <a href="https://www.facebook.com/pizzahutindia"><img src="fb.jpeg"></a><a href="https://twitter.com/PizzaHutIN"><img src="twi.jpeg"></a><a href="https://www.instagram.com/pizzahut_india/"><img src="insta.jpeg"></a><a href="https://www.youtube.com/channel/UCOBjFMnb_0rfwV0plAYXsfQ"><img src="yt.jpeg"></a>
+        </div> 
+        </div>    
+    </div>
+</body>
+</html>
