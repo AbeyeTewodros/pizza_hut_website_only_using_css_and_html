@@ -1,0 +1,236 @@
+            body{
+                background-color: black;
+            }
+            .logo{
+                float: left;
+            }
+            .back{
+                background-image: url(back.jpg);
+            }
+            h2{
+                text-align: right;
+                margin-top: 350px;
+                font-size: xx-large;
+                font-family: cursive;
+                color: white;
+            }
+            marquee{
+                margin-top: 250px;
+            }
+            .nav a{
+                display: block;
+                padding: 100px;
+                font-size: 19px;
+                color: white;
+                text-align: center;
+                padding: 20px 20px;
+                text-decoration: none;
+                float: left;
+            }
+            .nav a:hover{
+                background-color: black;
+            }
+            .empty{
+                background-color: black;
+            }
+            .specials{
+                background-image: url(spec.jpg);
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+
+            }
+            h1{
+                text-align: center;
+            }
+            .nada{
+                background-color: black;
+                color: black;
+            }
+            .items{
+                align-items: left;
+            }
+            .deal1{
+                margin: 10px;
+                margin-left: 100px;
+            }
+            .deal2{
+                margin: 40px;
+                margin-left: 100px;
+            }
+            .deal3{
+                margin: 40px;
+                margin-left: 100px;
+            }
+            img{
+                border-radius: 50px 0 0 50px;
+            }
+            .right{
+                float: right;
+                color: black;
+            }
+            .box1{
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 40px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -210px;
+            }
+            .box2{
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 12px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -240px;
+            }
+            .box3{
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 13px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -240px;
+            }
+            .body{
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                font-weight: bolder;
+                background-image: url(1.jpg);
+                background-size: cover;
+            }
+            .wrapper{
+                width:1200px;
+                margin:100px auto;
+            }
+            .title{
+                text-align:center;
+                margin-bottom:60px;
+            }
+            .title h4{
+                text-transform:capitalize;
+                font-size:36px;
+                position:relative;
+                display:inline-block;
+                padding-bottom:10px;
+            }
+            .title h4 span{
+                display:block;
+                font-size:18px;
+                font-style:italic;
+                margin-bottom:10px;
+                color: #ff7720 ;
+            }
+            .title h4:before{
+                position:absolute;
+                width:100px;
+                height:2px;
+                background-color:#ff7720;
+            }
+            .menu{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:space-between;
+            }
+            .single-menu{
+                flex-basis:580px;
+                margin-bottom:40px;
+                padding-bottom:40px;
+                border-bottom:1px solid #ddd;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+            }
+            .single-menu img{
+                border-radius: 50%;
+            }
+            .gallery{
+                font-size: x-large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                color: white;
+                text-align: left;
+                background-image: url(gall.jpg);
+            }
+            .image{
+                border-radius: 50px;
+            }
+            .image img{
+                border-radius: 50px;
+                margin: 10px;
+                margin-left: 50px;
+                border:  black;
+                width: 200px;
+                height: 200px;
+            }
+            .image img:hover{
+                width: 300px;
+                height: 300px;
+            }
+            .contact{
+                color: white;
+            }
+            .contact h1{
+                text-align: center;
+            }
+            .contact  h3{
+                text-align: center;
+            }
+            .Adress{
+                text-align: center;
+                margin-top: 25px;
+            }
+            .cont{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 25px;
+                margin-top: 25px;
+            }
+            li{
+                text-align: left;
+            }
+            .cont a{
+                text-decoration: none;
+                color: white;
+            }
+            .foot{
+                color: white;
+                font-size: large;
+            }
+            .foot img{
+                height: 150px;
+                width: 200px;
+                margin-left: 370px;
+            }
+            .help{
+                margin-left: 300px;
+            }
+            button{
+                height: 50px;
+                width: 120px;
+                border-radius: 10px;
+            }
+            h3{
+                color: white;
+                margin-left: 50px;
+            }
+            .help img{
+                height: 50px;
+                width: 50px;
+                margin-left: 20px;
+                display: inline-block;
+            }
+            .right{
+                float: right;
+                margin-top: -60px;
+                margin-right: 350px;
+                margin-bottom: 50px;
+            }
