@@ -2,6 +2,9 @@
 # Pizza Website using HTML and CSS
 
 This Project is a basic website that I have done while working on with HTML and CSS. I have tried to make a great User Interface by CSS. 
+ 
+## Live Link(Responsive only for PC)
+* https://abeyetewodrospizzahutpage.netlify.app/
 
 
 ## Concepts Used
